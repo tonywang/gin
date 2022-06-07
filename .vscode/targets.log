@@ -1,0 +1,342 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Wed Jun  8 00:15:20 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/wanghongchen/Documents/git/gin
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 1)
+GO = go
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/wanghongchen/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/wanghongchen/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/wanghongchen/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/Users/wanghongchen/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 3)
+GO_VERSION = $(shell $(GO) version | cut -c 14- | cut -d' ' -f1 | cut -d'.' -f2)
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/6r/wdpbn4sd04bf4wj6s15pwrx80000gn/T/vscode-ipc-29f70e80-c27a-4d9b-bea3-0e725ae0d8e0.sock
+# environment
+VSCODE_CWD = /
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/opt/go@1.16/bin:/Users/wanghongchen/go/bin
+# environment
+GOPATH = /Users/wanghongchen/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 7)
+TESTFOLDER := github.com/gin-gonic/gin github.com/gin-gonic/gin/binding github.com/gin-gonic/gin/render
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.I3YQBhgq6i/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/wanghongchen/Documents/git/gin
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/wanghongchen/go/pkg/mod
+# environment
+HOME = /Users/wanghongchen
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/wanghongchen/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = wanghongchen
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 2)
+GOFMT = gofmt "-s"
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = wanghongchen
+# makefile
+.DEFAULT_GOAL := test
+# makefile (from `Makefile', line 5)
+VETPACKAGES = $(shell $(GO) list ./... | grep -v /examples/)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/6r/wdpbn4sd04bf4wj6s15pwrx80000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 8)
+TESTTAGS = ""
+# environment
+VSCODE_IPC_HOOK = /Users/wanghongchen/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.78358661.78358667
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 4)
+PACKAGES = $(shell $(GO) list ./...)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 6)
+GOFILES := ./gin_test.go ./testdata/protoexample/test.pb.go ./testdata/protoexample/any.go ./version.go ./utils_test.go ./recovery.go ./errors_test.go ./mode_test.go ./auth_test.go ./tree.go ./auth.go ./path_test.go ./gin_integration_test.go ./middleware_test.go ./logger.go ./deprecated.go ./internal/bytesconv/bytesconv.go ./internal/bytesconv/bytesconv_test.go ./internal/json/jsoniter.go ./internal/json/go_json.go ./internal/json/json.go ./render/render.go ./render/msgpack.go ./render/xml.go ./render/html.go ./render/redirect.go ./render/text.go ./render/reader.go ./render/yaml.go ./render/reader_test.go ./render/toml.go ./render/data.go ./render/json.go ./render/render_test.go ./render/any.go ./render/protobuf.go ./render/render_msgpack_test.go ./ginS/gins.go ./routes_test.go ./routergroup.go ./binding/query.go ./binding/header.go ./binding/msgpack.go ./binding/yaml_test.go ./binding/binding_nomsgpack.go ./binding/form_mapping.go ./binding/default_validator_benchmark_test.go ./binding/validate_test.go ./binding/default_validator_test.go ./binding/xml.go ./binding/json_test.go ./binding/multipart_form_mapping_test.go ./binding/uri.go ./binding/msgpack_test.go ./binding/form.go ./binding/yaml.go ./binding/binding_msgpack_test.go ./binding/toml.go ./binding/xml_test.go ./binding/binding_test.go ./binding/json.go ./binding/multipart_form_mapping.go ./binding/binding.go ./binding/toml_test.go ./binding/any.go ./binding/protobuf.go ./binding/form_mapping_test.go ./binding/default_validator.go ./binding/form_mapping_benchmark_test.go ./context_test.go ./routergroup_test.go ./response_writer_test.go ./context_1.16_test.go ./debug.go ./doc.go ./fs.go ./context.go ./context_1.17_test.go ./utils.go ./tree_test.go ./response_writer.go ./mode.go ./recovery_test.go ./context_appengine.go ./deprecated_test.go ./path.go ./any.go ./benchmarks_test.go ./debug_test.go ./githubapi_test.go ./logger_test.go ./errors.go ./test_helpers.go ./gin.go
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1664
+# variable set hash-table stats:
+# Load=73/1024=7%, Rehash=0, Collisions=4/107=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777223, inode 82271597): 66 files, no impossibilities.
+
+# 66 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+misspell-check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 57):
+	@hash misspell > /dev/null 2>&1; if [ $$? -ne 0 ]; then \
+	$(GO) get -u github.com/client9/misspell/cmd/misspell; \
+	fi
+	misspell -error $(GOFILES)
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: test fmt fmt-check lint misspell-check misspell tools
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 00:14:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+ 
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 12):
+	echo "mode: count" > coverage.out
+	for d in $(TESTFOLDER); do \
+	$(GO) test -tags $(TESTTAGS) -v -covermode=count -coverprofile=profile.out $$d > tmp.out; \
+	cat tmp.out; \
+	if grep -q "^--- FAIL" tmp.out; then \
+	rm tmp.out; \
+	exit 1; \
+	elif grep -q "build failed" tmp.out; then \
+	rm tmp.out; \
+	exit 1; \
+	elif grep -q "setup failed" tmp.out; then \
+	rm tmp.out; \
+	exit 1; \
+	fi; \
+	if [ -f profile.out ]; then \
+	cat profile.out | grep -v "mode:" >> coverage.out; \
+	rm profile.out; \
+	fi; \
+	done
+	
+
+vet:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	$(GO) vet $(VETPACKAGES)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 34):
+	$(GOFMT) -w $(GOFILES)
+	
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 50):
+	@hash golint > /dev/null 2>&1; if [ $$? -ne 0 ]; then \
+	$(GO) get -u golang.org/x/lint/golint; \
+	fi
+	for PKG in $(PACKAGES); do golint -set_exit_status $$PKG || exit 1; done;
+	
+
+misspell:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 64):
+	@hash misspell > /dev/null 2>&1; if [ $$? -ne 0 ]; then \
+	$(GO) get -u github.com/client9/misspell/cmd/misspell; \
+	fi
+	misspell -w $(GOFILES)
+	
+
+fmt-check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 38):
+	@diff=$$($(GOFMT) -d $(GOFILES)); \
+	if [ -n "$$diff" ]; then \
+	echo "Please run 'make fmt' and commit the result:"; \
+	echo "$${diff}"; \
+	exit 1; \
+	fi;
+	
+
+tools:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 71):
+	@if [ $(GO_VERSION) -gt 15 ]; then \
+	$(GO) install golang.org/x/lint/golint@latest; \
+	$(GO) install github.com/client9/misspell/cmd/misspell@latest; \
+	elif [ $(GO_VERSION) -lt 16 ]; then \
+	$(GO) install golang.org/x/lint/golint; \
+	$(GO) install github.com/client9/misspell/cmd/misspell; \
+	fi
+	
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/38=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jun  8 00:15:20 2022
+
+ 

@@ -1,0 +1,1 @@
+{"buildTargets":["fmt","fmt-check","lint","misspell","misspell-check","test","tools","vet"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
